@@ -10,9 +10,9 @@ AgroAlert is a web-based crop monitoring and advisory system empowering farmers 
   - [The challenge](#the-challenge)
   - [Screenshot](#screenshot)
   - [Links](#links)
-- [My process](#my-process)
+- [Dev process](#my-process)
   - [Built with](#built-with)
-  - [What I learned](#what-i-learned)
+  - [What we learned](#what-i-learned)
   - [Continued development](#continued-development)
   - [Useful resources](#useful-resources)
 - [Author](#author)
@@ -38,10 +38,10 @@ Users should be able to:
 ### Links
 
 - Design Url: https://www.figma.com/design/tyvYhEmOgvSQcEASCHkLge/AGROalert?node-id=0-1&t=AHBORNm1BiKn2XxP-1
-- Solution URL: git@github.com:mcquest72/AGROalert.git
+- Solution URL: https://github.com/mcquest72/AGROalert 
 - Live Site URL: 
 
-## My process
+## Dev process
 
 ### Built with
 
