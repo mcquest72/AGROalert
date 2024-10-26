@@ -67,8 +67,8 @@ We shall love to continue focusing on responsive design and security of this sol
 ## Contributors
 
 - Kumaga Senenge  - [GitHub](https://github.com/Beacon-Tek)
-- Chicha Msughter Jerry - [Persona](https://www.your-site.com)
-- David Kunde - [GitHub](https://github.com/kunde-david)
+- Chicha Msughter Jerry - [GitHub](https://github.com/Ben-VX)
+- David Kunde - [GitHub](https://github.com/David-Kunde)
 - Saaondo Jacob Ushahemba - [GitHub](https://github.com/saaondojacob)
 - IORHEE SAA-AONDO SAVIOUR - [GitHub](https://github.com/saviour200) 
 - IEREN USHAHEMBA ISAAC - [GitHub](https://github.com/iushahemba170)
@@ -76,7 +76,7 @@ We shall love to continue focusing on responsive design and security of this sol
 - Jato Ioraungwa
 - Ijoga Ipesi JOB 
 - Ujah Jacob Achile - [GitHub](https://github.com/ujahachile)
-
+- Akor Bundepuun Benjamin - [GitHub](https://github.com/Ben-VX)
 
 
 
@@ -84,4 +84,4 @@ We shall love to continue focusing on responsive design and security of this sol
 
 Our sincere appreciation goes to our digital Governor, His Execellency, Rev Fr. Dr. Hycinth Iormem Alia, for this wonderful opportunity to leaverage this tech skills. May God bless you sir.
 
-We wish to also thank our mentors [@katfogy](https://github.com/katfogy), for his guidance of which without him, we wouldn't have to come this far, thank you boss.
+We wish to also thank our mentors [@katfogy](https://github.com/katfogy), and [@giftednathan](https://github.com/giftednathan) for their guidance and support without which we wouldn't have come this far. We appreciate you.
