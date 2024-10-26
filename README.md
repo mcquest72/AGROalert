@@ -62,7 +62,7 @@ We shall love to continue focusing on responsive design and security of this sol
 
 ### Useful resources
 
-- [w3school](https://www.w3schools.com/) - This helped me gain some insight to the structure of html. I really liked this platform and will use it going forward.
+- [w3school](https://www.w3schools.com/) - This helped us gain some insight to the structure of html, css, and javascript. We hope to continue using this platform going forward.
 
 ## Contributors
 
