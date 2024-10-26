@@ -32,7 +32,7 @@ Users should be able to:
 
 ### Screenshot
 
-![](./assest/design/assest/design/Landing_page.png)
+![](./assest/design/Landing_page.png)
 
 
 ### Links
