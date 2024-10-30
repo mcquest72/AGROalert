@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Agroalert || SignUp</title>
+    <link rel="stylesheet" href="../css/login.css">
+</head>
+<body>
+
+    <!--  Registration form -->   
+
+    <div class="form_container" id="Registration_Form_Container">
+        <div class="form_div" id="Registration_form_div">
+            <img src="../assest/images/IMG-20241022-WA0003.png" id="site_logo" alt="Agroalert logo" />
+            <h1 class="form_title">Let's get started</h1>
+            <form action="" class="form_group" method="Post">
+                <div class="form_group">
+    
+                    <!-- firstname and lastname -->
+
+                    <div class="Short-inputs-div">
+                        <div class="half_input">
+                            <label for="firstname">Fisrt Name</label>
+                            <input class="Short_input" type="text" name="firstname" >
+                        </div>
+                        <div class="half_input">
+                            <label for="lastname">Last Name</label>
+                            <input class="Short_input" type="text" name="lastname" >
+                        </div>
+                    </div>
+    
+                    <!-- Email and Gender -->
+
+                    <div class="seventy_thirty_short_div">
+                        <div class="email_div">
+                            <label for="email">Email</label>
+                            <input class="email_input" type="email" name="email" >
+                        </div>
+                        <div class="gender_div">
+                            <label for="gender">Gender</label>
+                            <select name="gender_input" id="gender_input">
+                                <option value="male" name="male" id="male">Male</option>
+                                <option value="female" name="female" id="female">Female</option>
+                            </select>
+                        </div>
+                    </div>
+    
+                    <!-- State and LGA -->
+
+                    <div class="Short-inputs-div">
+                        <div class="half_input">
+                            <label for="state">State</label>
+                            <input class="Short_input" type="text" name="state" >
+                        </div>
+                        <div class="half_input">
+                            <label for="lga">LGA</label>
+                            <input class="Short_input" type="text" name="lga" >
+                        </div>
+                    </div>
+                        
+                    <!-- Long inputs -->
+
+                    <div>
+                        <label for="phone number">Phone Number</label>
+                        <input class="long-inputs" type="text" name="Phone number" >
+                    </div>
+    
+                    <div>
+                        <label for="Address">Address</label>
+                        <input class="long-inputs" type="text" name="Address" >
+                    </div>
+                    <div>
+                        <label for="Password">Password</label>
+                        <input class="long-inputs" type="password" name="Password" >
+                    </div>
+                    <div>
+                        <label for="Confirm Password">Confirm Password</label>
+                        <input class="long-inputs" type="Confirm password" name="Confirm Password" >
+                    </div>
+                    <a>
+                        <p class="Login_register_swap" id="Login_instead_link">Already have an account? Login</p>
+                    </a>
+                </div>
+            </form>
+        </div>
+
+        <!-- side image on reg form-->
+
+        <div class="side_image_container" id="Registration_side_image-container">
+            <h1 class="side_img_header">Let's set you up</h1>
+            <p>Agroalert is a crop monitoring and advisory web-based application, designed to help farmers identify and
+                manage
+                crop diseases, receive real-time weather forecasts, and access critical agricultural information.</p>
+            <button type="submit" class="buttons" id="Register_btn">Create account</button>
+        </div>
+    </div>
+    
+    <!--  Login form -->
+    
+        <div class="form_container" id="Login_Form_Container">
+            <div class="form_div" id="Login_form_div">
+                <img src="../assest/images/IMG-20241022-WA0003.png" id="site_logo" alt="Agroalert logo" />
+                <h1 class="form_title">Hello Again!</h1>
+                <p class="form_sub_title">Login to your account</p>
+                <div class="input_group">
+                    <label for="email">Email</label>
+                    <input type="text" class="email" name="email" id="email" />
+                </div>
+                <div class="input_group">
+                    <label for="password">Password</label>
+                    <input type="text" class="password" name="password" id="password" />
+                </div>
+                <a href="" class="password_link" id="password_recovery_link">Forgot Password?</a>
+                <div class="Login_btn">
+                    <button type="submit" class="buttons" id="Login_btn">Login</button>
+                </div>
+                <a><p class="Login_register_swap" id="Register_instead_link">Don't have an account? Sign Up</p></a>
+            </div> 
+
+             <!-- side image on login form-->
+              
+            <div class="side_image_container" id="login_side_image_container">
+                <img src="../assest/images/Maize 1.png" class="maize_image" alt="maize diseases">
+                <img src="../assest/images/Broad-Beans.png" class="beans_image" alt="beans diseases tips">
+                <img src="../assest/images/crop yield 1.png" class="crop_yield_image" alt="diseases affects crop yield ">
+            </div>
+        </div>         
+      <script src="../javascript/login.js"></script>
+</body>
+</html>

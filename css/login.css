@@ -1,0 +1,372 @@
+* {
+    margin:0px;
+    padding:0px;
+    box-sizing:border-box;
+    font-family: Poppins, calibri, Montserat, Verdana, sans-serif;
+}
+
+body {
+    background-color: white;
+    font-size: 14px;
+}
+
+.form_container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    width: 90%;  
+    height: 85vh;
+    max-width: 800px;  
+    background-color: white;  
+    border-radius: 10px;
+    margin: 50px auto;
+    box-shadow: 3px 2px 30px rgb(175, 160, 160);
+}
+
+.form_div {
+    display: inline-block;
+    width: 50%;
+    margin: 0 auto;
+    padding: 0px 30px;
+}
+
+#site_logo {
+    width: 40PX;
+    height: 40px;
+    border-radius: 50px;
+    display: block;
+    margin: 0 auto;
+    margin-top: 30px;
+}
+
+.form_title {
+    text-align: center;   
+    margin: 8px auto;
+    font-size: 1.2rem; 
+}
+
+p {
+    font-size: 0.8rem;
+    text-align: center;
+    margin-top: 0px;
+    margin-bottom: 20px;
+}
+
+label {
+   font-size: 0.75; 
+}
+
+.input_group input {
+    width: 100%;
+    padding: 3px;
+    margin-bottom:10px;
+}
+
+.Short-inputs-div {
+    display: flex;
+    justify-content: space-between;
+    width:100%;
+    margin-bottom: 10px;   
+}
+
+.half_input {
+    width: 49%
+}
+
+.Short_input {
+    width:100%;
+    padding: 3px;
+    /* background-color: rgb(241, 229, 229); */
+    /* border: 0.8px solid  rgb(206, 208, 210); */
+    border: 0.8px solid  black;
+    font-size: 0.7.5rem;
+    border-radius: 3px;
+    display: inline-block;
+}
+
+.seventy_thirty_short_div {
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-bottom: 10px;
+}
+
+.email_div {
+    display: inline-grid;
+    width: 68%;
+}
+
+.gender_div {
+    display: inline-grid;
+    width: 30%;
+}
+
+.email_input {
+    width: 100%;
+    padding: 3px;
+    /* background-color: rgb(241, 229, 229); */
+    /* border:0.8px solid  rgb(206, 208, 210); */
+    border: 0.8px solid  black;
+    border-radius: 3px;
+}
+
+#gender_input {
+    width: 100%;
+    padding: 3px;
+    float: right;
+    /* background-color: rgb(241, 229, 229); */
+    /* border:0.8px solid  rgb(206, 208, 210); */
+    border: 0.8px solid  black;
+    border-radius: 3px;
+}
+
+.long-inputs {
+    display: block;
+    font-size:0.7.5rem;
+    width:100%;
+    margin-bottom: 10px;
+    padding: 3px;
+    /* border:0.8px solid  rgb(206, 208, 210); */
+    border: 0.8px solid  black;
+    border-radius: 3px;
+    /* background-color: rgb(241, 229, 229); */
+}
+
+.buttons {
+    width: 100%;
+    margin: 20px auto;
+    font-size: 1rem;
+    font-weight: 500;
+    background-color: rgb(247, 227, 53);
+    color: black;
+    padding: 15px;
+    border: none;
+    border-radius: 7px;
+    box-shadow: 2px 2px 10px gray;
+    text-decoration: none;
+}
+
+#Login_form_div {
+    padding-top:50px;
+}
+
+#password_recovery_link {
+    text-align: right;
+    display: block;
+    margin-top:10px;
+    margin-bottom: 30px;
+
+}
+
+.Login_register_swap {
+    cursor: pointer;
+}
+
+.side_image_container {
+    width: 50%;
+    height: 100%;
+    padding: 40px;
+    background-color: blue;
+    border-bottom-right-radius:10px;
+    border-top-right-radius: 10px;
+    float:right
+}
+
+#login_side_image_container {
+    position: relative;
+    padding: 0px;
+}
+
+.side_image_container .maize_image {
+    width: 168px;  
+    height: 122px;
+    position: absolute; 
+    top: 80px;
+    left: 115px;
+    border-radius: 16px;   
+}
+
+.side_image_container .beans_image {
+    width: 250px;
+    height: 250px;
+    position: absolute;
+    top: 170px;
+    left: 20px;
+    border-radius: 16px;
+    transform: 18.74 deg;
+    z-index: 99;
+}
+
+.side_image_container .crop_yield_image {
+    width: 167px;
+    height: 106px;
+    position: absolute;
+    top: 380px;
+    left: 125px;
+    border-radius: 16px;
+}
+
+
+
+.side_image_container h1 {
+    color: white;
+    margin:35px auto;
+    text-align: left;
+    font-size:2rem;
+}
+
+.side_image_container p {
+    color: white;    
+    text-align: left;
+    line-height: 1.5;
+    font-size: 1.1rem;   
+    margin: 35px auto;
+}
+
+
+#Registration_side_image-container {
+    width: 40%;
+}
+
+
+@media (min-width: 850px) {
+    .form_container {
+        height: 90vh;
+        margin: 30px auto;
+    }
+}
+
+@media (max-width: 850px) { 
+
+    .form_container {       
+        width: 95%;  
+        height: 95vh;
+    }
+
+    #Registration_form_div {
+        width: 55%;    
+    }
+    
+    #Registration_side_image-container {
+        width: 45%;
+    }
+       
+}
+
+@media (max-width: 678px) {
+.side_image_container h1 {
+    margin:20px auto;
+    font-size: 1.55rem;
+}
+
+.side_image_container {
+    padding-top: 10px;
+}
+}
+
+@media (max-width: 632px) {
+    .side_image_container .maize_image {
+        left: 70px;
+    }   
+       
+    .side_image_container .crop_yield_image {
+        top: 400px;
+        left: 70px;
+        transform: rotate(15deg);
+    }
+}
+
+@media (max-width: 600px) {
+
+    .side_image_container .maize_image {
+        width: 104px;  
+        height: 81px;
+        top: 110px;
+        left: 75px;
+        transform: rotate(10deg);
+    }
+
+    .side_image_container .beans_image {
+        width: 170px;
+        height: 170px;
+        left: 10px; 
+    }
+
+    .side_image_container .crop_yield_image {
+        width: 110px;
+        height: 73px;
+        top: 320px;
+        left: 70px;
+        transform: rotate(5deg);
+    }
+}
+
+@media (max-width: 565px) {
+    #Registration_form_div {
+        width: 50%;    
+    }
+    
+    #Registration_side_image-container {
+        width: 50%;
+    }
+
+    .side_image_container {
+        padding: 10px 20px;
+}
+}
+
+@media (max-width: 450px) {
+    .form_container{
+        display: flex;
+        flex-direction: column;
+        width: 100%;  
+        height: 100%;
+        background-color: blue;  
+        border-radius: 0px;
+        margin: 0px;
+        box-shadow: none;
+        padding: 20px 0px;
+    }
+
+    .form_div {
+        display:block;
+        width: 90%;
+        margin: 0px auto;
+        padding: 20px;
+        border-radius: 50px;
+        background-color: rgb(238, 243, 231);
+    }
+
+    #Registration_form_div {
+        width: 90%; 
+        /* height:100%;  */
+        margin: 0 auto;  
+    }
+    
+    #Registration_side_image-container {
+        width: 100%;
+    }
+
+    #Login_side_image_container {
+        display: none;
+    }
+
+    .side_image_container {
+        /* background: url(./Assets/Rice\ bg.png.png); */
+        background-color: blue;
+        border-radius: 0px; 
+        margin: 0px;
+    }
+
+    #login_side_image_container {
+        display: none;
+    }  
+
+    #Login_Form_Container {
+        margin: 0px;   
+    }
+
+    #Login_form_div {
+        height: 100%;
+    }
+ }
