@@ -184,7 +184,7 @@
     width: 311px;
     height: 112px;
     position: relative;
-    top: 476px;
+    top: 444px;
     left: 1070px;
     border-radius: 10px;
 }
@@ -193,32 +193,33 @@
     width: 1440px;
     height: 1105px;
     background-color: #C6AC46;
+    margin-top: -150px;
 }
 
 .Jones {
-    background-color: #292E3C;
-    width: 300px;
-    height: 542px;
+    background-color: #26282F;
+    width: 362px;
+    height: 524px;
     position: relative;
     top: 500px;
-    left: 140px;
+    left: 96px;
 }
 
 .Faeren {
-    background-color: #292E3C;
-    width: 300px;
-    height: 542px;
+    background-color: #26282F;
+    width: 362px;
+    height: 524px;
     position: relative;
-    bottom: 40px;
+    bottom: 20px;
     left: 550px;
 }
 
 .Christian {
-    background-color: #292E3C;
-    width: 300px;
-    height: 542px;
+    background-color: #26282F;
+    width: 362px;
+    height: 524px;
     position: relative;
-    bottom: 580px;
+    bottom: 544px;
     left: 1000px;
 }
 

@@ -68,7 +68,7 @@ We shall love to continue focusing on responsive design and security of this sol
 ## Contributors
 
 - Kumaga Senenge  - [GitHub](https://github.com/Beacon-Tek)
-- Chicha Msughter Jerry - [GitHub](https://github.com/Ben-VX)
+- Chicha Msughter Jerry - [GitHub](https://github.com/mcquest72)
 - David Kunde - [GitHub](https://github.com/David-Kunde)
 - Saaondo Jacob Ushahemba - [GitHub](https://github.com/saaondojacob)
 - IORHEE SAA-AONDO SAVIOUR - [GitHub](https://github.com/saviour200) 
