@@ -1,14 +1,21 @@
-body {
+*{
     margin: 0;
     padding: 0;
-    font-family: Arial, sans-serif;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 .landing-section {
+    margin: 0;
+    padding: 0;
     width: 1440px;
     height: 952px;
-    background: '/assest/images/rice.jpg' no-repeat center center;
-    position: relative;
+    background: url('/assest/images/rice.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    transform: scaleX(-1);
+    background-position: top;
 }
 
 .overlay {
@@ -20,20 +27,22 @@ body {
     left: 66px;
     color: black;
     padding: 25px;
+    transform: scaleX(-1);
+    border-radius: 10px;
 }
 
 .logo {
-    width: 101px;
-    height: 90px;
+    width: 60px;
+    height: 60px;
     position: absolute;
-    top: 25px;
-    left: 19px;
+    top: 38px;
+    left: 30px;
 }
 
 .navbar {
     position: absolute;
     top: 35px;
-    left: 201px;
+    left: 301px;
 }
 
 .nav-menu {
@@ -52,6 +61,52 @@ body {
     text-decoration: none;
 }
 
+.introduction h4 {
+    font-size: 18px;
+    color: black;
+    margin-bottom: 10px;
+    margin-top: 300px;
+    margin-left: 100px;
+}
+
+.introduction h1 {
+    font-size: 40px;
+    color: #1A4204;
+    margin-bottom: 10px;
+    margin-left: 60px;
+}
+
+.introduction h3 {
+    font-size: 24px;
+    color: black;
+    margin-bottom: 40px;
+    margin-left: 120px;
+}
+
+.introduction p {
+    font-size: 18px;
+    color: black;
+    margin-bottom: 10px;
+    margin-left: 60px;
+    margin-right: 600px;
+    text-align: left;
+}
+
+.rice-overlay {
+    width: 600px;
+    height: 850px;
+    background: url('/assest/images/rice.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    transform: scaleX(-1);
+    position: absolute;
+    top: 10px;
+    left: 698px;
+    padding: 25px;
+    border-radius: 10px;
+}
+
 .services-section {
     width: 1440px;
     height: 1041px;
@@ -59,15 +114,43 @@ body {
     text-align: center;
 }
 
+.features h1 {
+    font-size: 40px;
+    color: black;
+    margin-bottom: 10px;
+    margin-top: 140px;
+    margin-right: 1100px;
+}
+
+.features h2 {
+    font-size: 30px;
+    text-align: left;
+    color: #1A4204;
+    margin-bottom: 10px;
+    margin-left: 60px;
+    
+}
+
+.features p {
+    font-size: 18px;
+    color: black;
+    margin-bottom: 10px;
+    margin-left: 60px;
+    margin-right: 900px;
+    text-align: left;
+}
+
 .btn-get-started {
     width: 400px;
     height: 80px;
     background-color: #F1F90A;
     border: none;
-    border-radius: 5px;
+    border-radius: 10px;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
     position: relative;
-    top: 1612px;
+    top: 400px;
+    right: 450px;
+    cursor: pointer;
 }
 
 .weather-forecast {
@@ -97,11 +180,13 @@ body {
 }
 
 .additional-rectangle {
+    background-color: #292E3C;
     width: 311px;
     height: 112px;
-    position: absolute;
-    top: 1946px;
-    left: 1062px;
+    position: relative;
+    top: 476px;
+    left: 1070px;
+    border-radius: 10px;
 }
 
 .testimonies-section {
@@ -110,19 +195,48 @@ body {
     background-color: #C6AC46;
 }
 
+.Jones {
+    background-color: #292E3C;
+    width: 300px;
+    height: 542px;
+    position: relative;
+    top: 500px;
+    left: 140px;
+}
+
+.Faeren {
+    background-color: #292E3C;
+    width: 300px;
+    height: 542px;
+    position: relative;
+    bottom: 40px;
+    left: 550px;
+}
+
+.Christian {
+    background-color: #292E3C;
+    width: 300px;
+    height: 542px;
+    position: relative;
+    bottom: 580px;
+    left: 1000px;
+}
+
 .footer-section {
     width: 1440px;
     height: 719px;
     background-color: #26282F;
-    color: white;
     text-align: center;
+    color: white;
 }
 
 .footer-logo {
-    width: 54px;
-    height: 54px;
+    width: 10px;
+    height: 10px;
     position: relative;
     margin: auto;
+    top: 50px;
+    margin-bottom: 50px;
 }
 
 .footer-cta {
@@ -147,8 +261,8 @@ body {
 
 .footer-menu {
     font-size: 28px;
-    color: white;
     display: flex;
     justify-content: center;
     gap: 42px;
+    margin-top: 400px;
 }
