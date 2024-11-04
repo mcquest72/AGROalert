@@ -1,0 +1,186 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dasboard</title>
+   <style>
+    * {
+    margin:0%;
+    padding:0%;
+    box-sizing: border-box;
+    font-family: Poppins, calibri, Montserat, Verdana, sans-serif;
+}
+body {
+    background-color: rgba(227, 232, 236, 0.548);
+    
+}
+.header {
+    background-color: rgba(254, 255, 255, 0.979);
+    display: flex;
+    position: sticky;
+    height: 70px;
+    bottom: 0%;
+    top: 0%;
+    width: 1600px;
+    border-bottom: 2px solid rgb(111, 118, 121);
+    
+}
+.logo {
+    color: rgb(3, 141, 38);
+    display: flex;
+    align-items: center;
+    margin-left: 80px;
+}
+.profile {
+    align-items: center;
+    text-align: center;
+    display: flex;
+    margin-left: 1100px;
+    text-decoration-style: none;
+    gap: 1px;
+}
+.dasboard {
+    background-color: rgb(151, 177, 2);
+    width: 230px;
+    height: 70px;
+    transition: all 0.5 ease-in-out;
+    margin-left:0%;
+    margin-top: 0%;
+    margin-bottom: 0%;
+    align-content: center;
+    padding:0 1.5rem
+}
+.dasboard:hover{
+    background: rgb(9, 148, 21);
+}
+.menu {
+    position: static;
+    margin-left: 0%;
+    margin-top: 0%;
+    top: 0px;
+    bottom: 0%;
+    margin-top: 0%;
+    left: 0%;
+    width: 230px;
+    height: 650px;
+    padding:0 0.5rem;
+    color: white;
+    background: rgb(5, 112, 54);
+    transition: all 8.5s linear;
+    overflow: hidden;
+    align-content: center;
+}
+.menu li {
+    padding: 1rem;
+    border-radius: 8px;
+    transition: all 0.5 ease-in-out;
+    margin-left:0%;
+    list-style: none;
+}
+.menu li:hover,
+.active {
+    background: rgb(9, 148, 21);
+}
+a {
+    text-decoration: none;
+    color: white;
+    font-size: 13px;
+    align-items: center;
+    gap: 1rem;
+}
+.logout {
+    margin-top: 200px;
+    margin-bottom: 20px;
+    bottom: 0;
+    left: 0%;
+    align-content: center;
+}
+.control {
+    display: flex
+}
+.background {
+    position: static;
+    margin-top: 60px;
+    margin-left: 100px;
+    margin-right: 10px;
+}
+   </style>
+</head>
+<body>
+    <div class="header">
+        <div class="logo">
+            <img src="logo.png" height="40px" width="40px" alt="">
+            <h4>AgroAlert</h4>
+        </div>
+        <ul class="profile">
+            <a href="#">
+                <img src="beel.png" height="30px" width="30px" gap="2px" alt="">
+            </a>
+            </h4>
+                Saaondo Jacob
+                <a href="#">
+                    <img src="avater.png" height="30px" width="30px" alt="">
+                </a>
+                <a href="#">
+                    <img src="arrow.png" height="20px" width="20px" alt="">
+                </a>
+            </h4>     
+        </ul>   
+    </div>
+    <div class="control">
+        <div class="sidebar">
+            <div class="Dasboard">
+                <a href="#">
+                    <h1>
+                     <img src="Dasboardicon.png" width="20px" height="20px" alt="">
+                     <span>Dasboard</span>
+                    </h1>
+                 </a>
+            </div>  
+            <ul class="Menu">
+                <li>
+                    <a  href="#">
+                        <img src="arrow1.png" width="15" height="15" alt="">
+                        <span>Wealther Forecast</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <img src="arrow1.png" width="15" height="15" alt="">
+                        <span>Crop Health Monitoring</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <img src="arrow1.png" width="15" height="15" alt="">
+                        <span>Personalized Advisory</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <img src="arrow1.png" width="15" height="15" alt="">
+                        <span>Resource Optimization</span>
+                    </a>
+                </li>
+                <li class="setttings">
+                    <a href="#">
+                        <img src="arrow1.png" width="15" height="15" alt="">
+                        <span>Settings</span>
+                    </a>
+                </li>
+                <li class="logout">
+                    <a href="#">
+                        <img src="logouticon.png" color="white" width="15" height="15"  alt="">
+                        <span>Logout</span>
+                    </a>
+                </li>
+            </ul>
+    
+        </div>
+        
+        <div class="background">
+            <img src="Group 3.png" height="650px" width="1158px">
+        </div>
+    </div>     
+</body>
+</html>
