@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Agroalert || SignUp</title>
     <link rel="stylesheet" href="../css/login.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
 <body>
 
@@ -97,6 +98,7 @@
     </div>
     
     <!--  Login form -->
+
     
         <div class="form_container" id="Login_Form_Container">
             <div class="form_div" id="Login_form_div">
@@ -118,14 +120,44 @@
                 <a><p class="Login_register_swap" id="Register_instead_link">Don't have an account? Sign Up</p></a>
             </div> 
 
+
              <!-- side image on login form-->
               
             <div class="side_image_container" id="login_side_image_container">
+
+                <!-- Sign Up Successful Message -->
+                <div class="sign_up_successful_div" id="sign_up_successful_message">
+                    <i class="fa fa-check"></i>
+                    <h1>Success! Login to your dashboard and explore more.</h1>
+                </div>
                 <img src="../assest/images/Maize 1.png" class="maize_image" alt="maize diseases">
                 <img src="../assest/images/Broad-Beans.png" class="beans_image" alt="beans diseases tips">
                 <img src="../assest/images/crop yield 1.png" class="crop_yield_image" alt="diseases affects crop yield ">
             </div>
-        </div>         
+        </div>    
+
+    <!--  Password Recovery form -->
+    
+    <div class="form_container" id="Forgot_Password_Form_Container">
+        <div class="form_div" id="Password_Recovery_form_div">
+            <img src="../Assets/IMG-20241022-WA0003.png" id="site_logo" alt="Agroalert logo" />
+            <h1 class="form_title">Forgot Password?</h1>
+            <p class="form_sub_title">No worries, we'll send you reset instructions</p>
+            <div class="input_group">
+                <label for="email">Email</label>
+                <input type="text" class="email" name="email" id="email" placeholder="user@example.com"/>
+            </div> 
+            <button type="submit" class="buttons" id="password_recovery_btn">Reset Password</button>
+            <a><p class="Login_register_swap" id="back_to_login_instead_link">Back to log in</p></a>
+        </div>
+
+         <!-- side image on PSW recovery form-->
+
+        <div class="side_image_container" id="password_recovery_side_image_container">
+           <img src="../Assets/Frame 3.png" id="password_recovery_side_image" alt="crop health monitoring detect crop diseases">
+        </div>
+    </div>       
+        
       <script src="../javascript/login.js"></script>
 </body>
 </html>

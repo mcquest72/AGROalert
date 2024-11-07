@@ -53,3 +53,4 @@ signUpSuccessful.addEventListener("click", (e) => {
 
 // functions
 
+
