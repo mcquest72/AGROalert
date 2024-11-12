@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="/css/styles.css">
+    <link rel="stylesheet" href="./css/styles.css">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
     <title>AGROalert</title>
 </head>
@@ -12,23 +12,37 @@
     <!-- Landing page section -->
     <div class="landing-section">
         <div class="overlay">
-            <img src="/assest/images/Logo.JPG" alt="Logo" class="logo">
-            <nav class="navbar">
-                <ul class="nav-menu">
-                    <li><a href="#landing">Home</a></li>
-                    <li><a href="#services">Services</a></li>
-                    <li><a href="#testimonies">Testimonies</a></li>
-                    <li><a href="#about">About</a></li>
-                </ul>
-            </nav>
-            <div class="introduction">
-                <h4>AI - POWERED ADVISORY SYSTEM</h4>
-                <H1>EMPOWERING FARMERS</H1>
-                <H3>with data-driven insights</H3>
-                <p>Leveraging AI, weather integration, and community features, AgroAlert provides personalized advice on pest control, fertilizer application, and irrigation management. Improving crop yields, reducing chemical usage, and enhancing resource efficiency.
-                </p>
+            <div class="nav_hero">
+                <img src="./assest/images/Logo.JPG" alt="Logo" class="logo">
+                <nav class="navbar">
+                    <ul class="nav-menu">
+                        <li><a href="#landing">Home</a></li>
+                        <li><a href="#services">Services</a></li>
+                        <li><a href="#testimonies">Testimonies</a></li>
+                        <li><a href="#about">About</a></li>
+                    </ul>
+                </nav>
+                <div class="introduction">
+                    <h4>AI - POWERED ADVISORY SYSTEM</h4>
+                    <H1>EMPOWERING FARMERS</H1>
+                    <H3>with data-driven insights</H3>
+                    <p>Leveraging AI, weather integration, and community features, AgroAlert provides personalized advice on pest
+                        control, fertilizer application, and irrigation management. Improving crop yields, reducing chemical usage, and
+                        enhancing resource efficiency.
+                    </p>  
+                    <div class="get-started-btn-div">
+                    <a href="./web pages/login.html" class="btn-get-started" id="landing_page_btn">Get Started</a>  
+                    </div>         
+                </div>
+            </div>            
+            <div class="rice-overlay">
+                <div class="subscribers_signup">
+                    <a href="./web pages/login.html">
+                        <img class="subscriber-signup-btn" src="./assest/images/Subscriber-signup-btn.png" alt="">
+                    </a>
+                </div>                
+                <img class="transparent-framme" src="./assest/images/transparent frame.png.png" alt="">
             </div>
-            <div class="rice-overlay"></div>
         </div>
     </div>
     
@@ -38,13 +52,17 @@
             <h1>FEATURES</h1>
             <h2>LEVERAGE AI- POWERED ALGORITHMS</H2>
             <p>AGROalert is a crop monitoring and advisory web-based application, designed to help farmers identify and manage crop diseases, receive real-time weather forecasts, and access critical agricultural information.
-            </p>
-        </div>
-        <button class="btn-get-started">Get Started</button>
-        <img src="/assest/images/weather.jpeg" alt="Analytics" class="weather-forecast">
-        <img src="/assest/images/Crop health monitoring.jpg" alt="Analytics" class="analytics-image">
-        <div class="ai-chat-assistant">AI Chat Assistant</div>
-        <div class="additional-rectangle"></div>
+            </p>          
+            <a href="./web pages/login.html" class="btn-get-started">Get Started</a>
+        </div> 
+        <div class="feature_images">
+            <img src="/assest/images/weather.jpeg" alt="Analytics" class="weather-forecast">
+            <img src="/assest/images/Crop health monitoring.jpg" alt="Analytics" class="analytics-image">
+            <img src="./assest/images/ai assistant.png" alt="Analytics" class="ai-chat-assistant">
+            <div class="additional-rectangle">
+                <p>4.75+ clicks</p>
+            </div>
+        </div>          
     </section>
 
     <!-- Testimonies section -->
@@ -54,47 +72,48 @@
             <p>Discover what our satisfied customers have to say about their experiences with our product and services.
             </p>
         </div>
-
-        <div class="container" style="background-color: #26282F;"></div>
-        <div class="Jones" style="background-color: #26282F;">
-            <img src="/assest/images/Jim Jones.png" alt="" class="Jones-img">
-            <div class="details">
-                <h1>Jim Jones</h1>
-                <h3>Small Business Owner</H3>
-                <p>Since integrating this solution into our workflow, we've experienced a significant improvement in efficiency and collaboration.
-                </p>
+        <div class="testimonies_container">
+            <div class="Jones" style="background-color: #26282F;">
+                <img src="/assest/images/Jim Jones.png" alt="" class="Jones-img">
+                <div class="details">
+                    <h1>Jim Jones</h1>
+                    <h3>Small Business Owner</H3>
+                    <p>Since integrating this solution into our workflow, we've experienced a significant improvement in efficiency and collaboration.
+                    </p>
+                </div>
             </div>
-        </div>
-        <div class="Faeren" style="background-color: #26282F;">
-            <img src="/assest/images/Faeren Tar-Tor.png" alt="" class="Faeren-img">
-            <div class="details">
-                <h1>Faeren Tar-Tor</h1>
-                <h3>Fruit Marketer</H3>
-                <p>I've tested numerous options in this category, but one stands out for its intuitive design and comprehensive functionality.
-                </p>
+            <div class="Faeren" style="background-color: #26282F;">
+                <img src="/assest/images/Faeren Tar-Tor.png" alt="" class="Faeren-img">
+                <div class="details">
+                    <h1>Faeren Tar-Tor</h1>
+                    <h3>Fruit Marketer</H3>
+                    <p>I've tested numerous options in this category, but one stands out for its intuitive design and comprehensive functionality.
+                    </p>
+                </div>
             </div>
-        </div>
-        <div class="Christian" style="background-color: #26282F;">
-            <img src="/assest/images/Christian.jpg" alt="" class="Chris-img">
-            <div class="details">
-                <h1>Christian</h1>
-                <h3>Operations Manager</H3>
-                <p>The tool we've adopted has surpassed our expectations, providing invaluable insights and support as our business continues to grow.
-                </p>
+            <div class="Christian" style="background-color: #26282F;">
+                <img src="/assest/images/Christian.jpg" alt="" class="Chris-img">
+                <div class="details">
+                    <h1>Christian</h1>
+                    <h3>Operations Manager</H3>
+                    <p>The tool we've adopted has surpassed our expectations, providing invaluable insights and support as our business continues to grow.
+                    </p>
+                </div>
             </div>
-        </div>
+        </div>      
     </section>
 
     <!-- Footer section -->
     <footer id="about" class="footer-section">
         <div class="footer-logo">
             <img src="/assest/images/Logo.JPG" alt="" class="logo-img">
+            <h3>AGROalert</h3>
+        </div>       
+        <h2>Get started to upgrade your farm with personal AI manager</h2>
+        <div class="cta-div">
+            <input type="text" placeholder="Enter your email" class="footer-input">
+            <button class="footer-cta">Try now</button>
         </div>
-        <h1>AGROalert</h1>
-        <p>Get started to up your farm with personal AI manager</p>
-        <input type="text" placeholder="Enter your email" class="footer-input">
-        <button class="footer-cta">Try now</button>
-
         <div class="footer-menu">
             <a href="#">Features</a>
             <a href="#">Plans & Pricing</a>
@@ -103,8 +122,9 @@
             <a href="#">Terms</a>
             <a href="#">Pricing</a>
         </div>
-    </footer>
-    
+        <div class="footer-line"></div>
+        <p>&copy; 2024 AGROalert</p>
+    </footer>    
     <script src="script.js"></script>
 </body>
 </html>

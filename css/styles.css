@@ -2,14 +2,14 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: Inter, Arial, Helvetica, sans-serif;
 }
 
 .landing-section {
     margin: 0;
     padding: 0;
-    width: 1440px;
-    height: 952px;
+    width: 100%;
+    height: 100vh;
     background: url('/assest/images/rice.jpg');
     background-size: cover;
     background-position: center;
@@ -19,30 +19,37 @@
 }
 
 .overlay {
-    width: 1305px;
-    height: 868px;
+    display: flex;
+    flex-direction: row;
+    width: 90%;
+    height: 90%;
     background-color: white;
     position: absolute;
-    top: 24px;
-    left: 66px;
+    margin: 25px 66px;
     color: black;
-    padding: 25px;
+    padding: 8px;
     transform: scaleX(-1);
     border-radius: 10px;
 }
 
 .logo {
-    width: 60px;
-    height: 60px;
+    width: 50px;
+    height: 50px;
     position: absolute;
-    top: 38px;
-    left: 30px;
+    top: 35px;
+    left: 70px;
+}
+
+.nav_hero {
+    display: flex;
+    flex-direction: column;
+    width: 60%;    
 }
 
 .navbar {
     position: absolute;
-    top: 35px;
-    left: 301px;
+    top: 36px;
+    left: 30%;
 }
 
 .nav-menu {
@@ -61,144 +68,183 @@
     text-decoration: none;
 }
 
+.introduction {
+    margin: 0 auto;
+    text-align: center;    
+}
+
 .introduction h4 {
     font-size: 18px;
     color: black;
-    margin-bottom: 10px;
-    margin-top: 300px;
-    margin-left: 100px;
+    margin-top: 90px;
 }
 
 .introduction h1 {
-    font-size: 40px;
+    font-size: 38px;
     color: #1A4204;
+    font-weight: 500;
     margin-bottom: 10px;
-    margin-left: 60px;
 }
 
 .introduction h3 {
     font-size: 24px;
     color: black;
     margin-bottom: 40px;
-    margin-left: 120px;
 }
 
 .introduction p {
-    font-size: 18px;
+    font-size: 15px;
+    font-family: calibri;
     color: black;
     margin-bottom: 10px;
-    margin-left: 60px;
-    margin-right: 600px;
-    text-align: left;
-    line-height: 1.6;
+    margin: 0 120px;   
+    text-align: center;
+    line-height: 1.2;
+}
+
+.get-started-btn-div{
+    margin-top: 60px;
+}
+
+#landing_page_btn{
+    width: 40%;
+    height: 50px;
+    font-size: 14px;
+    background-color: greenyellow;
+    padding: 15px 50px;
+    color: brown;
 }
 
 .rice-overlay {
-    width: 600px;
-    height: 850px;
+    display: inline-block;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 50%;
+    height: 100%;
     background: url('/assest/images/rice.jpg');
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
     transform: scaleX(-1);
-    position: absolute;
-    top: 10px;
-    left: 698px;
     padding: 25px;
     border-radius: 10px;
 }
 
+.rice-overlay .subscriber-signup-btn{
+    transform: scaleX(-1);
+}
+
+.rice-overlay .transparent-framme{
+    height: 50%;
+    width: 40%;
+    margin: 0 auto;
+
+}
+
 .services-section {
-    width: 1440px;
+    width: 100%;
     height: 1041px;
     background-color: white;
     text-align: center;
+    position: relative;
+    margin: 0px;
+    display: flex;
+    flex-direction: row;
+}
+
+.features {
+   display: flex;
+   flex-direction: column;
+   width: 40%;
+   height: 100%;
+   margin: 300px 80px;
+   text-align: left;
 }
 
 .features h1 {
     font-size: 40px;
     color: #1A4204;
     margin-bottom: 10px;
-    margin-top: 140px;
-    margin-right: 1100px;
+    font-weight: 700;
+
 }
 
 .features h2 {
-    font-size: 30px;
-    text-align: left;
+    font-size: 28px; 
     color: #1A4204;
-    margin-bottom: 40px;
-    margin-left: 60px;
-    padding-right: 1000px;
-    
+    font-weight: 400;  
+    margin-bottom: 40px;;  
 }
 
 .features p {
     font-size: 20px;
     color: black;
     margin-bottom: 10px;
-    margin-left: 60px;
-    margin-right: 900px;
-    text-align: left;
-    line-height: 1.6;
-    padding-right: 100px;
+    line-height: 2.0;   
 }
 
 .btn-get-started {
-    width: 400px;
+    width: 100%;
     height: 80px;
     background-color: #F1F90A;
     border: none;
     border-radius: 10px;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-    position: relative;
-    top: 100px;
-    right: 450px;
+    margin-top: 50px;
     cursor: pointer;
-    font-size: 24px;
+    font-size: 20px;
+    text-align: center;
+    padding-top: 30px;
+    text-decoration: none;
+}
+
+.feature_images {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin-right: 40px;
 }
 
 .weather-forecast {
-    width: 311px;
+    width: 40%;
     height: 294px;
-    position: absolute;
-    top: 1089px;
-    left: 562px;
+    margin-top: 151px;
 }
 
 .analytics-image {
-    width: 482px;
-    height: 415px;
-    position: absolute;
-    top: 968px;
-    left: 891px;
+    width: 55%;
+    height: 40%;
+    margin-top: 30px;
 }
 
 .ai-chat-assistant {
     background-color: #292E3C;
-    width: 482px;
+    width: 60%;
     height: 545px;
     color: white;
-    position: absolute;
-    top: 1401px;
-    left: 562px;
+    padding: 20px;
 }
 
 .additional-rectangle {
     background-color: #292E3C;
-    width: 311px;
-    height: 112px;
-    position: relative;
-    top: 299px;
-    left: 1070px;
+    width: 35%;
+    height: 80px;
+    margin-top: 465px;
     border-radius: 10px;
+    text-align: center;
+    color: white;
+    font-size: small;
+    padding-top: 30px;
 }
 
+
+
 .testimonies-section {
-    width: 1440px;
+    width: 100%;
     height: 1105px;
     background-color: #C6AC46;
-    margin-top: -150px;
 }
 
 .evidence {
@@ -206,24 +252,75 @@
     color: black;
     font-size: 28px;
     line-height: 1.5;
-    padding-top: 200px;
+    padding-top: 100px;
     
 }
 
 .evidence h1 {
-    font-size: 90px;
+    font-size: 80px;
 }
 
 .evidence p {
-    padding-right: 200px;
-    padding-left: 200px;
+    padding: 0px 200px;
     font-size: 28px;
+}
+
+.testimonies_container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin: 80px;
+}
+
+.Jones {
+    background-color: #26282F;
+    width: 30%;
+    height: 524px;
+    margin-top: 14px;
+}
+
+.Jones-img {
+    width: 150px;
+    height: 150px;
+    border-radius: 100px;
+    margin-top: 20px;
+    margin-left: 20px;
+    
+}
+
+.Faeren {
+    background-color: #26282F;
+    width: 30%;
+    height: 550px;
+}
+
+.Faeren-img {
+    width: 150px;
+    height: 150px;
+    border-radius: 100px;
+    margin-top: 20px;
+    margin-left: 20px;
+}
+
+.Christian {
+    background-color: #26282F;
+    width: 30%;
+    height: 524px;
+    margin-top: 14px;
+}
+
+.Chris-img {
+    width: 130px;
+    height: 150px;
+    border-radius: 100px;
+    margin-top: 20px;
+    margin-left: 20px;
 }
 
 .details {
     text-align: left;
     color: rgb(231, 231, 231);
-    padding-top: 220px;
+    padding-top: 30px;
     margin-left: 20px;
     line-height: 1.5;
     
@@ -244,65 +341,16 @@
     color: #ccc9c9;  
 }
 
-.Jones {
-    background-color: #26282F;
-    width: 362px;
-    height: 524px;
-    position: relative;
-    top: 100px;
-    left: 96px;
-}
-
-.Jones-img {
-    width: 150px;
-    height: 150px;
-    position: absolute;
-    top: 38px;
-    left: 30px;
-    border-radius: 100px;
-}
-
-.Faeren {
-    background-color: #26282F;
-    width: 362px;
-    height: 524px;
-    position: relative;
-    bottom: 420px;
-    left: 550px;
-}
-
-.Faeren-img {
-    width: 150px;
-    height: 150px;
-    position: absolute;
-    top: 38px;
-    left: 30px;
-    border-radius: 100px;
-}
-
-.Christian {
-    background-color: #26282F;
-    width: 360px;
-    height: 524px;
-    position: relative;
-    bottom: 940px;
-    left: 1000px;
-}
-
-.Chris-img {
-    width: 130px;
-    height: 150px;
-    position: absolute;
-    top: 38px;
-    left: 30px;
-    border-radius: 100px;
-}
-
 
 /* Footer section */
 .footer-section {
-    width: 1440px;
-    height: 719px;
+    width: 100%;
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 80px;
+    padding-bottom: 40px;
     background-color: #26282F;
     text-align: center;
     color: white;
@@ -310,52 +358,75 @@
 
 
 .footer-logo {
-    width: 10px;
-    height: 10px;
-    position: relative;
-    margin: auto;
-    top: 50px;
-    margin-bottom: 80px;
+    display: flex;
+    flex-direction: row;  
+    justify-content: center;
+    gap: 20px;
+    align-items: center;
+    margin-bottom: 8px;    
 }
 
 .logo-img {
-    width: 60px;
-    height: 60px;
-    position: absolute;
-    top: 10px;
-    right: 110px;
+    width: 50px;
+    height: 50px;
     border-radius: 100px;
+}
+
+.footer-logo h3{
+    margin: 0px;
+}
+
+.footer-section h2{
+   padding: 0 50px;   
+   margin-top: 30px;
+   font-size: 24px;
+   }
+
+.cta-div{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 55%; 
+    margin: 50px auto;
 }
 
 .footer-input {
-    width: 600px;
-    height: 80px;
+    width: 69%;
+    height: 55px;
     border: 2px solid #FFFFFF;
-    font-size: 26px;
-    margin-top: 300px;
-    margin-right: 400px;
+    font-size: 20px;
     border-radius: 100px;
     background-color: #26282F;
-    padding: 30px;
-    position: relative;
+    padding: 25px;
 }
 
 .footer-cta {
-    width: 200px;
-    height: 80px;
+    width: 30%;
+    height: 59px;
     background-color: #F1F90A;
     color: #1A4204;
-    font-size: 26px;
+    font-size: 20px;
     font-weight: bold;
-    bottom: 200px;
-    margin-left: 600px;
     border-radius: 100px;
+    border: none;
+}
+
+.footer-line{
+    width: 90%;
+    border: 1px solid white;
+    margin: 5px;
+    margin-top: 30px;
 }
 
 .footer-menu {
-    font-size: 28px;
+    font-size: 18px;
     display: flex;
     justify-content: center;
-    gap: 42px;
-    margin-top: 0px;
+    text-decoration: none;
+    gap: 60px; 
+}
+
+.footer-section p{
+    margin:5px;
+    font-size: 14px;
 }
