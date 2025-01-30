@@ -50,7 +50,7 @@ Users should be able to:
 - Bootstrap
 - JAVASCRIPT
 - SQL
-
+- PYTHON 
 
 ### What we learned
 
