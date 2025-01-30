@@ -73,12 +73,6 @@ We shall love to continue focusing on responsive design and security of this sol
 - Saaondo Jacob Ushahemba - [GitHub](https://github.com/saaondojacob)
 - IORHEE SAA-AONDO SAVIOUR - [GitHub](https://github.com/saviour200) 
 - IEREN USHAHEMBA ISAAC - [GitHub](https://github.com/iushahemba170)
-- Aondona Jennifer Ngukulan - [GitHub](https://github.com/jennifer-28)
-- Jato Ioraungwa
-- Ijoga Ipesi JOB 
-- Ujah Jacob Achile - [GitHub](https://github.com/ujahachile)
-- Akor Bundepuun Benjamin - [GitHub](https://github.com/Ben-VX)
-
 
 
 ## Acknowledgments
