@@ -49,6 +49,7 @@ Users should be able to:
 - CSS
 - Bootstrap
 - JAVASCRIPT
+- SQL
 
 
 ### What we learned
