@@ -1,14 +1,14 @@
 # CLAUDE.md
 
 ## Project
-AGROalert – AI-powered crop monitoring & advice tool for smallholder farmers (Nigeria focus).  
+AGROalert – AI-powered crop monitoring & advice tool for farmers (Nigeria focus).  
 Right now it's a static frontend (HTML + Bootstrap 5 + vanilla JS). Python/FastAPI + SQL backend is coming next and will live in its own `/backend` folder.
 
 ## Key Conventions
-- All static assets must live in `/assets/` (images, icons, etc.). Never use the old “assest” folder.
+- All static assets must leave in `/assets/` (images, icons, etc.). Never use the old “assest” folder.
 - Frontend changes stay in the root HTML/CSS/JS files for now. No frameworks.
 - When backend arrives: FastAPI routes go in `/backend/app/`, keep it separate from frontend.
-- Use `.env` for any keys/secrets (never commit them).
+- Use `.env` for any keys/secrets (never commit them, ensure there are no hardcoded secrects).
 
 ## Do Not
 - Rename or reorganize folders without updating every single reference in HTML/CSS/JS.
